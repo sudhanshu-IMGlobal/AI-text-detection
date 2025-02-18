@@ -17,8 +17,6 @@ The project is organized into several modules to ensure maintainability and scal
 - **`middlewares/`**: Contains custom middleware, such as rate-limiting or logging.
 - **`utils/`**: Utility functions, including logging and configuration handling.
 
-### `tests/` - Unit and Integration Tests
-Contains test cases to verify the functionality of the application.
 
 ### `requirements.txt` - Project Dependencies
 List of Python dependencies needed to run the application.
@@ -26,15 +24,11 @@ List of Python dependencies needed to run the application.
 ### `.env` - Environment Configuration
 Contains environment-specific settings like API keys, model configurations, etc.
 
-### `run.sh` - Shell Script to Run Application
-A script to launch the FastAPI app easily.
-
 ---
 
 ## Requirements
 - Python 3.x
 - **FastAPI** for creating the API.
-- **TensorFlow** or **PyTorch** for running the AI models (used in detecting AI-generated text).
 - Additional libraries in `requirements.txt`.
 
 ---
@@ -95,7 +89,6 @@ Response
   - Body:
   ```json
   {
-  "is_ai_generated": true,
   "confidence": 85.4
 }
 ```
