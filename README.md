@@ -4,7 +4,7 @@
 AI_Text_Detection is a AI-based project designed to detect AI-generated text. The goal is to classify text as either AI-generated or human-written using advanced models. This project implements a FastAPI application that exposes RESTful endpoints for text detection and other utilities.
 
 ## Features
-- Detect AI-generated text using a trained model.
+- Detect AI-generated text using a LLM model.
 - Provides a health check API endpoint to monitor the status of the service.
 - API is fast and lightweight, built using **FastAPI**.
   
