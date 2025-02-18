@@ -1,0 +1,61 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# FastAPI
+*.log
+
+# Model files (if large and not meant to be stored in the repo)
+*.h5
+*.pkl
+*.pt
+*.pth
+model/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Configuration files
+.env
+
+# Test results
+tests/.pytest_cache/
+*.cover
+*.coverage
+nosetests.xml
+coverage.xml
+*.hypothesis/
+
+# Build directories
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyInstaller
+*.spec
+
+# Dependency directories
+node_modules/
+
+# Other
+*.bak
+*.swp
+*.swo
